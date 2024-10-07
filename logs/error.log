@@ -1,0 +1,10 @@
+2024-10-04T13:55:57.999Z [[31merror[39m]: Database connection failed TypeError: The "config.server" property is required and must be of type string.
+2024-10-04T13:56:48.065Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
+2024-10-04T13:56:52.085Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
+2024-10-07T05:00:59.816Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:01:05.902Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:04:09.669Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:04:29.787Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:05:40.580Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T06:14:23.579Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
+2024-10-07T06:14:50.674Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.

@@ -1,0 +1,68 @@
+2024-10-04T13:53:54.394Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:54:03.528Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:55:24.127Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:55:35.934Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:55:57.999Z [[31merror[39m]: Database connection failed TypeError: The "config.server" property is required and must be of type string.
+2024-10-04T13:56:48.065Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
+2024-10-04T13:56:52.085Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
+2024-10-04T13:57:03.485Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:57:06.686Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-04T13:57:10.906Z [[32minfo[39m]: GET / 404 - 4ms
+2024-10-04T13:57:10.949Z [[32minfo[39m]: GET /favicon.ico 404 - 1ms
+2024-10-07T04:37:11.336Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:43:57.400Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:44:58.803Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:46:26.367Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:46:32.555Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:46:48.709Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:46:52.750Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T04:59:19.434Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:00:59.816Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:00:59.818Z [[32minfo[39m]: GET /api/products 500 - 14ms
+2024-10-07T05:01:05.902Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:01:05.903Z [[32minfo[39m]: GET /api/products 500 - 1ms
+2024-10-07T05:04:08.249Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:04:09.669Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:04:09.672Z [[32minfo[39m]: GET /api/products 500 - 3ms
+2024-10-07T05:04:28.681Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:04:29.787Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:04:29.790Z [[32minfo[39m]: GET /api/products 500 - 5ms
+2024-10-07T05:05:36.941Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:05:40.580Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
+2024-10-07T05:05:40.583Z [[32minfo[39m]: GET /api/products 500 - 5ms
+2024-10-07T05:06:20.043Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:06:33.948Z [[32minfo[39m]: GET /api/products 200 - 11073ms
+2024-10-07T05:06:37.491Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:06:40.283Z [[32minfo[39m]: GET /api/products 200 - 423ms
+2024-10-07T05:06:55.482Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:32:43.607Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:32:47.825Z [[32minfo[39m]: GET /api/products 200 - 569ms
+2024-10-07T05:48:48.263Z [[32minfo[39m]: GET /api/products 200 - 542ms
+2024-10-07T05:52:22.366Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:53:40.155Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:54:04.789Z [[32minfo[39m]: GET /api/products 200 - 703ms
+2024-10-07T05:54:45.185Z [[32minfo[39m]: GET /api/products 200 - 471ms
+2024-10-07T05:55:18.912Z [[32minfo[39m]: GET /api/products 200 - 441ms
+2024-10-07T05:55:55.926Z [[32minfo[39m]: GET /api/products 200 - 457ms
+2024-10-07T05:56:57.741Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:57:08.653Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T05:57:48.959Z [[32minfo[39m]: GET /api/products 200 - 496ms
+2024-10-07T05:58:14.196Z [[32minfo[39m]: GET /api/products 200 - 175ms
+2024-10-07T05:58:28.963Z [[32minfo[39m]: GET /api/products 200 - 170ms
+2024-10-07T05:58:39.489Z [[32minfo[39m]: GET /api/products 200 - 170ms
+2024-10-07T06:03:37.217Z [[32minfo[39m]: GET /api/getAllProducts 404 - 2ms
+2024-10-07T06:03:41.512Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:03:42.806Z [[32minfo[39m]: GET /api/getAllProducts 404 - 2ms
+2024-10-07T06:03:52.625Z [[32minfo[39m]: GET /api/products/getAllProducts 404 - 1ms
+2024-10-07T06:04:12.557Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:04:14.725Z [[32minfo[39m]: GET /api/products/getAllProducts 200 - 617ms
+2024-10-07T06:11:55.407Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:12:47.519Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:14:05.981Z [[32minfo[39m]: GET /api/products/getAllProducts 200 - 3591ms
+2024-10-07T06:14:21.943Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:14:23.579Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
+2024-10-07T06:14:23.581Z [[32minfo[39m]: GET /api/products/getAllProducts 500 - 321ms
+2024-10-07T06:14:46.514Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-07T06:14:50.674Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
+2024-10-07T06:14:50.677Z [[32minfo[39m]: GET /api/products/getAllProducts 500 - 335ms
+2024-10-07T06:15:25.011Z [[32minfo[39m]: Server started and running on port 3000
