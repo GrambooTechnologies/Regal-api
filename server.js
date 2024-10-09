@@ -8,7 +8,7 @@ poolPromise
   .then((pool) => {
     // Listen for incoming connections
     app.listen(port, () => {
-      console.log(`Server is running on http://localhost:${port}`);
+      console.log(`Server is running on :${port}`);
       logger.info(`Server started and running on port ${port}`);
     });
   })

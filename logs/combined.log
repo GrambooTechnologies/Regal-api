@@ -1,68 +1,70 @@
-2024-10-04T13:53:54.394Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:54:03.528Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:55:24.127Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:55:35.934Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:55:57.999Z [[31merror[39m]: Database connection failed TypeError: The "config.server" property is required and must be of type string.
-2024-10-04T13:56:48.065Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
-2024-10-04T13:56:52.085Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
-2024-10-04T13:57:03.485Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:57:06.686Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-04T13:57:10.906Z [[32minfo[39m]: GET / 404 - 4ms
-2024-10-04T13:57:10.949Z [[32minfo[39m]: GET /favicon.ico 404 - 1ms
-2024-10-07T04:37:11.336Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:43:57.400Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:44:58.803Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:46:26.367Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:46:32.555Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:46:48.709Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:46:52.750Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T04:59:19.434Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:00:59.816Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:00:59.818Z [[32minfo[39m]: GET /api/products 500 - 14ms
-2024-10-07T05:01:05.902Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:01:05.903Z [[32minfo[39m]: GET /api/products 500 - 1ms
-2024-10-07T05:04:08.249Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:04:09.669Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:04:09.672Z [[32minfo[39m]: GET /api/products 500 - 3ms
-2024-10-07T05:04:28.681Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:04:29.787Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:04:29.790Z [[32minfo[39m]: GET /api/products 500 - 5ms
-2024-10-07T05:05:36.941Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:05:40.580Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:05:40.583Z [[32minfo[39m]: GET /api/products 500 - 5ms
-2024-10-07T05:06:20.043Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:06:33.948Z [[32minfo[39m]: GET /api/products 200 - 11073ms
-2024-10-07T05:06:37.491Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:06:40.283Z [[32minfo[39m]: GET /api/products 200 - 423ms
-2024-10-07T05:06:55.482Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:32:43.607Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:32:47.825Z [[32minfo[39m]: GET /api/products 200 - 569ms
-2024-10-07T05:48:48.263Z [[32minfo[39m]: GET /api/products 200 - 542ms
-2024-10-07T05:52:22.366Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:53:40.155Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:54:04.789Z [[32minfo[39m]: GET /api/products 200 - 703ms
-2024-10-07T05:54:45.185Z [[32minfo[39m]: GET /api/products 200 - 471ms
-2024-10-07T05:55:18.912Z [[32minfo[39m]: GET /api/products 200 - 441ms
-2024-10-07T05:55:55.926Z [[32minfo[39m]: GET /api/products 200 - 457ms
-2024-10-07T05:56:57.741Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:57:08.653Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T05:57:48.959Z [[32minfo[39m]: GET /api/products 200 - 496ms
-2024-10-07T05:58:14.196Z [[32minfo[39m]: GET /api/products 200 - 175ms
-2024-10-07T05:58:28.963Z [[32minfo[39m]: GET /api/products 200 - 170ms
-2024-10-07T05:58:39.489Z [[32minfo[39m]: GET /api/products 200 - 170ms
-2024-10-07T06:03:37.217Z [[32minfo[39m]: GET /api/getAllProducts 404 - 2ms
-2024-10-07T06:03:41.512Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:03:42.806Z [[32minfo[39m]: GET /api/getAllProducts 404 - 2ms
-2024-10-07T06:03:52.625Z [[32minfo[39m]: GET /api/products/getAllProducts 404 - 1ms
-2024-10-07T06:04:12.557Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:04:14.725Z [[32minfo[39m]: GET /api/products/getAllProducts 200 - 617ms
-2024-10-07T06:11:55.407Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:12:47.519Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:14:05.981Z [[32minfo[39m]: GET /api/products/getAllProducts 200 - 3591ms
-2024-10-07T06:14:21.943Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:14:23.579Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
-2024-10-07T06:14:23.581Z [[32minfo[39m]: GET /api/products/getAllProducts 500 - 321ms
-2024-10-07T06:14:46.514Z [[32minfo[39m]: Server started and running on port 3000
-2024-10-07T06:14:50.674Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
-2024-10-07T06:14:50.677Z [[32minfo[39m]: GET /api/products/getAllProducts 500 - 335ms
-2024-10-07T06:15:25.011Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T10:22:32.296Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T10:22:35.234Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 513ms
+2024-10-09T10:22:44.568Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 117ms
+2024-10-09T10:22:44.747Z [[32minfo[39m]: GET /favicon.ico 404 - 1ms
+2024-10-09T10:34:16.553Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 914ms
+2024-10-09T10:34:35.109Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110400013351 200 - 780ms
+2024-10-09T10:34:46.839Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 79ms
+2024-10-09T10:46:26.475Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 743ms
+2024-10-09T10:46:34.747Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110400013351 200 - 216ms
+2024-10-09T10:46:39.283Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 93ms
+2024-10-09T11:30:39.697Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T11:31:31.379Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T11:31:43.391Z [[31merror[39m]: Error fetching product: Invalid object name 'TEST.ITM.ProdCodeMaster'.
+2024-10-09T11:31:43.395Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110400013351 500 - 496ms
+2024-10-09T11:31:57.706Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T11:32:01.851Z [[31merror[39m]: Error fetching product: Invalid object name 'ITM.ProdCodeMaster'.
+2024-10-09T11:32:01.855Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110400013351 500 - 405ms
+2024-10-09T11:32:20.743Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T11:32:25.251Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110400013351 200 - 812ms
+2024-10-09T11:33:03.761Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100055626 200 - 915ms
+2024-10-09T11:35:49.949Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 787ms
+2024-10-09T11:37:36.986Z [[32minfo[39m]: GET /api/products/stockTranferList?TranferBranchId=101 200 - 464ms
+2024-10-09T12:55:15.827Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T12:57:42.851Z [[31merror[39m]: Error fetching products: Parameters were not supplied for the function 'STK.FunTransferInbox'.
+2024-10-09T12:57:42.854Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 396ms
+2024-10-09T13:00:13.729Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:00:17.468Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:00:17.470Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 305ms
+2024-10-09T13:04:05.215Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:04:09.935Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:04:09.938Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 387ms
+2024-10-09T13:04:20.930Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:04:21.738Z [[31merror[39m]: Error fetching products: Invalid column name 'SALES'.
+2024-10-09T13:04:21.741Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 291ms
+2024-10-09T13:04:46.936Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:05:04.647Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:05:08.245Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:05:08.248Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 495ms
+2024-10-09T13:05:25.680Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:05:27.032Z [[31merror[39m]: Error fetching products: An object or column name is missing or empty. For SELECT INTO statements, verify each column has a name. For other statements, look for empty alias names. Aliases defined as "" or [] are not allowed. Change the alias to a valid name.
+2024-10-09T13:05:27.035Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 430ms
+2024-10-09T13:05:47.188Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:05:48.382Z [[31merror[39m]: Error fetching products: Invalid column name '1'.
+2024-10-09T13:05:48.385Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 301ms
+2024-10-09T13:06:00.749Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:06:01.736Z [[31merror[39m]: Error fetching products: Invalid column name 'stk'.
+2024-10-09T13:06:01.738Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 301ms
+2024-10-09T13:06:30.118Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:06:32.691Z [[31merror[39m]: Error fetching products: Invalid column name 'stk'.
+2024-10-09T13:06:32.695Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 314ms
+2024-10-09T13:06:48.617Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:06:56.775Z [[31merror[39m]: Error fetching products: Invalid column name ''Pending Transfer'.
+2024-10-09T13:06:56.778Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 315ms
+2024-10-09T13:07:09.883Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:07:11.361Z [[31merror[39m]: Error fetching products: Invalid column name '111'.
+2024-10-09T13:07:11.363Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 316ms
+2024-10-09T13:07:38.822Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:07:43.240Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 500ms
+2024-10-09T13:09:10.484Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:10:24.154Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:10:25.940Z [[31merror[39m]: Error fetching products: Incorrect syntax near '1'.
+2024-10-09T13:10:25.943Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 500 - 355ms
+2024-10-09T13:10:35.640Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:10:37.151Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 617ms
+2024-10-09T13:10:45.778Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:10:49.885Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 671ms
+2024-10-09T13:10:55.142Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:11:28.236Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 548ms
+2024-10-09T13:15:07.691Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-09T13:15:16.704Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 392ms

@@ -1,10 +1,14 @@
-2024-10-04T13:55:57.999Z [[31merror[39m]: Database connection failed TypeError: The "config.server" property is required and must be of type string.
-2024-10-04T13:56:48.065Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
-2024-10-04T13:56:52.085Z [[31merror[39m]: Database connection failed ConnectionError: Login failed for user 'sa'.
-2024-10-07T05:00:59.816Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:01:05.902Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:04:09.669Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:04:29.787Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T05:05:40.580Z [[31merror[39m]: Error fetching products: Cannot read properties of undefined (reading 'request')
-2024-10-07T06:14:23.579Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
-2024-10-07T06:14:50.674Z [[31merror[39m]: Error fetching products: Incorrect syntax near '5'.
+2024-10-09T11:31:43.391Z [[31merror[39m]: Error fetching product: Invalid object name 'TEST.ITM.ProdCodeMaster'.
+2024-10-09T11:32:01.851Z [[31merror[39m]: Error fetching product: Invalid object name 'ITM.ProdCodeMaster'.
+2024-10-09T12:57:42.851Z [[31merror[39m]: Error fetching products: Parameters were not supplied for the function 'STK.FunTransferInbox'.
+2024-10-09T13:00:17.468Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:04:09.935Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:04:21.738Z [[31merror[39m]: Error fetching products: Invalid column name 'SALES'.
+2024-10-09T13:05:08.245Z [[31merror[39m]: Error fetching products: Invalid column name 'STK'.
+2024-10-09T13:05:27.032Z [[31merror[39m]: Error fetching products: An object or column name is missing or empty. For SELECT INTO statements, verify each column has a name. For other statements, look for empty alias names. Aliases defined as "" or [] are not allowed. Change the alias to a valid name.
+2024-10-09T13:05:48.382Z [[31merror[39m]: Error fetching products: Invalid column name '1'.
+2024-10-09T13:06:01.736Z [[31merror[39m]: Error fetching products: Invalid column name 'stk'.
+2024-10-09T13:06:32.691Z [[31merror[39m]: Error fetching products: Invalid column name 'stk'.
+2024-10-09T13:06:56.775Z [[31merror[39m]: Error fetching products: Invalid column name ''Pending Transfer'.
+2024-10-09T13:07:11.361Z [[31merror[39m]: Error fetching products: Invalid column name '111'.
+2024-10-09T13:10:25.940Z [[31merror[39m]: Error fetching products: Incorrect syntax near '1'.
