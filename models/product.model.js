@@ -1,3 +1,4 @@
+const { request } = require("express");
 const { poolPromise } = require("../config/db");
 
 // Get all products
@@ -7,7 +8,7 @@ const getProducts = async () => {
     const result = await pool.request().query(
       `
        SELECT 
-        TOP 5
+      
     P.StockDate, P.prodCode, 
     P.GenFrom, P.Nos, P.NetWt, P.Gwt, P.Diawt, P.DiaNo, 
     P.DiaRate, P.DiaCash, P.Stonewt, P.StoneCtWt, P.StRate, P.StoneCash, P.MC, P.Wst, 
@@ -18,6 +19,14 @@ const getProducts = async () => {
     P.StNo, 
     P.Ot_Stno, P.Ot_Stwt, P.Ot_StRate, P.Ot_StAmt, 
     P.Pr_Stno, P.Pr_Stwt, P.Pr_StRate, P.Pr_StAmt, 
+    P.Pol_Stwt ,
+    P.Pol_Stno ,
+    P.Pol_Strate ,
+    P.Pol_Stamt ,
+    P.UN_Stwt ,
+    P.UN_Stno ,
+    P.UN_Strate ,
+    P.UN_Stamt 
     S.SuppCode, S.SuppName, S.SuppContPerson, S.SuppContPhone, 
     ITM. ItemCode, ITM.ItemName
 
@@ -40,7 +49,7 @@ WHERE
 
     return result.recordset;
   } catch (error) {
-    console.log("resultsss", error);
+    console.log("ERROR :", error);
     throw new Error("Error fetching products: " + error.message);
   }
 };
@@ -52,7 +61,7 @@ const getstockTranferList = async (Branch_id) => {
       .request()
       .input("Branch_id", Branch_id)
       .query(
-        `Select * from STK.FunTransferInbox('1','110','Pending Transfer','stk') PT
+        `Select * from STK.FunTransferInbox('1',${Branch_id},'Pending Transfer','stk') PT
        
     WHERE 
      NOT EXISTS (
@@ -68,15 +77,13 @@ const getstockTranferList = async (Branch_id) => {
 
     return result.recordset;
   } catch (error) {
-    console.log("resultsss", error);
+    console.log("ERROR :", error);
     throw new Error("Error fetching products: " + error.message);
   }
 };
 
 // Get product by ID
 const getProductById = async (TransferId) => {
-  console.log("tereee", TransferId);
-
   try {
     const pool = await poolPromise;
     const result = await pool.request().input("TransferId", TransferId).query(`
@@ -93,33 +100,45 @@ const getProductById = async (TransferId) => {
         STM.TotalStCash, STM.TotalDiaCash, STM.TDSPerc, STM.TotalTDS, STM.totaladvance, 
         STM.TranferBranchId, STM.OTCharge, STM.TransferId, STM.IsBarcode, STM.STKType, 
         STM.ResultOnly, STM.ItemTotal, STM.ItemTxTypeId, STM.ItemTaxPerc, STM.ItemTaxAmt, 
-        STM.EntryMod, STM.EmpId, STM.MC_Mode, STM.MetalRatePurity,
-          
-        STD.TransId, STD.Slno, STD.BranchId AS StdBranchId, STD.IssueId, STD.PurId, STD.JobOrderId, 
-        STD.ProdCodeId, STD.ItemID, STD.PurityId, STD.NetWt, STD.PureWt, 
-        STD.Touch, STD.Nos, STD.Gwt, STD.DiaNo, STD.Diawt, STD.DiaCash, STD.StWt, STD.StCtWt, 
-        STD.StCash, STD.MCRate, STD.MCPerc, STD.MC, STD.WstPerc, STD.Wst, STD.DiaRate, STD.StRate, 
-        STD.ItemRemarks, STD.MetalCash, STD.Amount AS StdAmount, STD.CertificationCharge, 
-        STD.SalesVA, STD.PurchaseVA, STD.TotalAmount AS StdTotalAmount, STD.WastageWt, 
-        STD.ActualWt, STD.IsActive AS StdIsActive, STD.IsReceipt, STD.Rate, STD.BatchId, 
-        STD.TestResult, STD.Loss, STD.TransferTransId, STD.IssueWt, STD.IssId, STD.RecId, 
-        STD.IdType, STD.Mud, STD.Status, STD.TrackingID, STD.DiaLoss, STD.StLoss, STD.HUId,
-          
-        IM.ItemCode, IM.ItemName, IM.ItemNamePrint, 
-        
-        PM.prodCode
-
-    FROM TEST.STK.StockTransferMaster STM
-    LEFT JOIN STK.StockTransferDetails STD ON STM.EntryId = STD.EntryId
-    LEFT JOIN ITM.ItemMaster IM ON STD.ItemID = IM.ItemId
-    LEFT JOIN STK.ProdCodeMaster PM ON STD.ProdCodeId = PM.ProdCodeId
-
-
-WHERE STM.EntryId = @TransferId  ;
+        STM.EntryMod, STM.EmpId, STM.MC_Mode, STM.MetalRatePurity
+        FROM  STK.StockTransferMaster STM
+        WHERE STM.EntryId = @TransferId  ;
 
         
         `);
-    return result.recordset[0];
+
+    const result2 = await pool
+      .request()
+      .input("TransferId", TransferId)
+      .query(
+        `SELECT 
+
+          STD.EntryId, STD.TransId, STD.Slno,  STD.Nos, STD.StWt, STD.[Mc Perc], STD.MCRate, STD.[Wst Perc], 
+    STD.IsActive, STD.Rate, STD.MetalCash, STD.[Item Name], STD.[Model Name], 
+    STD.ItemRemarks, STD.Amount, STD.IsReceipt, STD.BranchName, STD.IssueId, STD.CertificationCharge, 
+    STD.SalesVA, STD.PurchaseVA, STD.TotalAmount, STD.WastageWt, STD.ActualWt, STD.JobNo, STD.BatchNo, 
+    STD.TestResult, STD.Loss, STD.TransferTransId, STD.TrackingID, STD.DiaLoss, STD.StLoss, STD.[Reference No], STD.IdType, 
+    STD.StCtWt, STD.HUId,STD.Purity,
+    
+    PM.StockDate,PM.ProdCode,PM.Diawt,PM.DiaNo,PM.ItemID,PM.NetWt, PM.SupplierId, PM.DeptId, PM.GenFrom, PM.IsMRP,
+    PM.MRP, PM.VA, PM.VAPerc, PM.MinVA, PM.MCPerc,PM.WstPerc, PM.PurRate, PM.PurDiaRate, PM.PurStRate, PM.PurCost, PM.description, PM.Created_by, 
+    PM.Created_date, PM.Last_modified_by, PM.Last_modified_date, PM.VAamount, PM.VAmode, PM.MinimumVAamount, 
+    PM.Touch, PM.RatePerGm, PM.MessureID, PM.Value, PM.Tagwt, PM.VchNo, PM.VchDate, PM.PartyTypeId, PM.PartyId, 
+    PM.TransTypes, PM.selectBranchId, PM.ReceiptId, PM.DesignId, PM.SingleStone, PM.StoneId, PM.PurVaMode, 
+    PM.PurVa, PM.ProdJobNo, PM.HuId, PM.LoadTo, PM.HUId2, PM.NoOfHUId, PM.Netwt1, PM.Netwt2, PM.PurityId2, 
+    PM.Wax, PM.Ot_Stno, PM.Ot_Stwt, PM.Ot_StRate, PM.Ot_StAmt, PM.Pr_Stno, PM.Pr_Stwt, PM.Pr_StRate, PM.Pr_StAmt,
+
+                IM.ItemCode, IM.ItemName, IM.ItemNamePrint, 
+
+        S.SuppCode, S.SuppName, S.SuppContPerson, S.SuppContPhone
+        FROM STK.VGoldStockTransferDetails STD 
+        LEFT JOIN ITM.ItemMaster IM ON STD.ItemID = IM.ItemId
+        LEFT JOIN STK.ProdCodeMaster PM  ON STD.ProdCodeId = PM.ProdCodeId
+        LEFT JOIN PUR.SupplierMaster S  ON PM.SupplierId = S.SuppId
+        where EntryId = @TransferId`
+      );
+
+    return { master: result.recordset[0], details: result2.recordset };
   } catch (error) {
     throw new Error("Error fetching product: " + error.message);
   }
@@ -146,7 +165,6 @@ const updateStockTransferStatus = async (TransferId) => {
 
         
         `);
-    console.log(result);
 
     return {
       success: true,

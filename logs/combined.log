@@ -68,3 +68,120 @@
 2024-10-09T13:11:28.236Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 548ms
 2024-10-09T13:15:07.691Z [[32minfo[39m]: Server started and running on port 3000
 2024-10-09T13:15:16.704Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 392ms
+2024-10-10T06:19:24.566Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-10T06:19:50.383Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100055626 200 - 469ms
+2024-10-10T06:20:04.062Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 93ms
+2024-10-10T06:21:02.078Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 538ms
+2024-10-10T07:05:00.482Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 1048ms
+2024-10-10T10:04:33.564Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-10T10:04:42.478Z [[32minfo[39m]: GET /salesEstimation/oldGoldapi/products/stockTranferList?Branch_id=101%20%20%20%20%20%20http://localhost:1010/salesEstimation/oldGold 404 - 2ms
+2024-10-10T10:04:48.308Z [[32minfo[39m]: GET /salesEstimation/oldGoldapi/products/stockTranferList?Branch_id=101%20%20%20%20 404 - 1ms
+2024-10-10T10:05:01.299Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101%20%20%20%20 200 - 1175ms
+2024-10-10T10:05:19.980Z [[32minfo[39m]: GET //api/products/getProductById?TransferId=110100055626 404 - 0ms
+2024-10-10T10:05:27.315Z [[31merror[39m]: Error fetching product: Incorrect syntax near '.'.
+2024-10-10T10:05:27.316Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100055626 500 - 113ms
+2024-10-10T10:05:35.331Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-10T10:05:36.826Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100055626 200 - 423ms
+2024-10-10T10:07:41.385Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-10T10:07:43.017Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100055626 200 - 392ms
+2024-10-10T10:10:06.843Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109122 200 - 446ms
+2024-10-10T10:10:55.942Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109122 200 - 347ms
+2024-10-10T10:11:08.519Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109306 200 - 113ms
+2024-10-10T10:12:12.145Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109164 200 - 578ms
+2024-10-10T10:12:26.792Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-10T10:13:20.198Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109164 200 - 471ms
+2024-10-11T08:30:10.721Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T08:56:31.603Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T08:57:06.841Z [[31merror[39m]: Error fetching product: The multi-part identifier "IM.ItemNamePrint" could not be bound.
+2024-10-11T08:57:06.843Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110900021364 500 - 388ms
+2024-10-11T08:57:20.348Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T08:57:21.584Z [[31merror[39m]: Error fetching product: The multi-part identifier "STM.EntryId" could not be bound.
+2024-10-11T08:57:21.587Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110900021364 500 - 373ms
+2024-10-11T08:57:36.139Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T08:57:37.902Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110900021364 200 - 433ms
+2024-10-11T09:05:10.072Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 200 - 652ms
+2024-10-11T09:05:47.653Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:12:09.945Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:12:47.826Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:13:01.185Z [[31merror[39m]: Error fetching product: Invalid column name 'Status'.
+2024-10-11T09:13:01.188Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 500 - 388ms
+2024-10-11T09:13:47.297Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:13:49.074Z [[31merror[39m]: Error fetching product: Invalid column name 'WstPerc'.
+2024-10-11T09:13:49.078Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 500 - 318ms
+2024-10-11T09:14:39.963Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:14:41.666Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 200 - 356ms
+2024-10-11T09:34:29.164Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:37:18.499Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:37:22.531Z [[31merror[39m]: Error fetching product: The multi-part identifier "STD.ProdCodeId" could not be bound.
+2024-10-11T09:37:22.534Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 500 - 544ms
+2024-10-11T09:38:10.847Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:38:31.650Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T09:38:35.751Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109219 200 - 2037ms
+2024-10-11T09:39:14.500Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 1402ms
+2024-10-11T10:04:45.295Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:04:47.906Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:04:47.912Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 500 - 345ms
+2024-10-11T10:05:24.199Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:05:26.208Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:05:26.212Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 500 - 360ms
+2024-10-11T10:05:57.071Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:05:58.677Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:05:58.679Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 500 - 356ms
+2024-10-11T10:06:20.432Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:06:21.830Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:06:21.834Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 500 - 341ms
+2024-10-11T10:06:31.434Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:06:35.438Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 2492ms
+2024-10-11T10:15:08.562Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:15:09.850Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 444ms
+2024-10-11T10:17:31.895Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:17:36.767Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 547ms
+2024-10-11T10:18:16.514Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:18:27.355Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-11T10:19:57.384Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 620ms
+2024-10-11T10:20:10.249Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 637ms
+2024-10-11T10:20:18.061Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 141ms
+2024-10-11T10:34:22.855Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 618ms
+2024-10-14T05:56:42.797Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-14T05:58:23.598Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 869ms
+2024-10-14T05:58:46.643Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=1109069 404 - 11ms
+2024-10-14T05:58:46.771Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=1109069 404 - 2ms
+2024-10-14T05:59:02.348Z [[32minfo[39m]: POST /api/products/updateStockTransferStatus 200 - 309ms
+2024-10-14T05:59:05.910Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 736ms
+2024-10-14T06:00:28.639Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-14T06:00:39.624Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-14T06:00:50.578Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=1109069 404 - 11ms
+2024-10-14T06:00:52.678Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=1109069 200 - 399ms
+2024-10-14T06:08:17.193Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=1109069 404 - 1ms
+2024-10-25T06:00:18.470Z [[32minfo[39m]: Server started and running on port 3000
+2024-10-25T06:00:56.370Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 531ms
+2024-10-25T06:10:39.247Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 563ms
+2024-10-25T06:10:43.876Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=104 200 - 767ms
+2024-10-25T06:42:15.061Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-23T07:25:58.884Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-23T07:26:43.412Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 578ms
+2024-11-23T07:27:05.905Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=110100059317 404 - 1ms
+2024-11-23T07:27:05.906Z [[32minfo[39m]: POST /api/products/getProductById?TransferId=110100059317 404 - 1ms
+2024-11-23T07:27:06.136Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 244ms
+2024-11-23T07:27:36.496Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-23T07:27:42.025Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 453ms
+2024-11-23T07:32:33.522Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-23T07:32:39.779Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 477ms
+2024-11-23T07:33:06.445Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-23T07:33:08.006Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 472ms
+2024-11-25T07:29:30.652Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-25T07:30:13.387Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.
+2024-11-25T07:30:13.389Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 500 - 816ms
+2024-11-25T07:30:26.108Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.
+2024-11-25T07:30:26.109Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 500 - 573ms
+2024-11-25T07:41:20.698Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-25T07:41:37.091Z [[32minfo[39m]: GET /api/products/stockTranferList?Branch_id=101 200 - 1584ms
+2024-11-25T07:41:45.511Z [[31merror[39m]: Error fetching product: Incorrect syntax near '.'.
+2024-11-25T07:41:45.511Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 500 - 142ms
+2024-11-25T07:42:06.314Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-25T07:42:09.407Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.
+2024-11-25T07:42:09.410Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 500 - 631ms
+2024-11-25T07:48:09.152Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-25T07:48:16.510Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 532ms
+2024-11-27T05:21:57.463Z [[32minfo[39m]: Server started and running on port 3000
+2024-11-27T05:21:59.603Z [[32minfo[39m]: GET /api/products/getProductById?TransferId=110100059317 200 - 891ms

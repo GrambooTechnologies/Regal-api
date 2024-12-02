@@ -12,3 +12,17 @@
 2024-10-09T13:06:56.775Z [[31merror[39m]: Error fetching products: Invalid column name ''Pending Transfer'.
 2024-10-09T13:07:11.361Z [[31merror[39m]: Error fetching products: Invalid column name '111'.
 2024-10-09T13:10:25.940Z [[31merror[39m]: Error fetching products: Incorrect syntax near '1'.
+2024-10-10T10:05:27.315Z [[31merror[39m]: Error fetching product: Incorrect syntax near '.'.
+2024-10-11T08:57:06.841Z [[31merror[39m]: Error fetching product: The multi-part identifier "IM.ItemNamePrint" could not be bound.
+2024-10-11T08:57:21.584Z [[31merror[39m]: Error fetching product: The multi-part identifier "STM.EntryId" could not be bound.
+2024-10-11T09:13:01.185Z [[31merror[39m]: Error fetching product: Invalid column name 'Status'.
+2024-10-11T09:13:49.074Z [[31merror[39m]: Error fetching product: Invalid column name 'WstPerc'.
+2024-10-11T09:37:22.531Z [[31merror[39m]: Error fetching product: The multi-part identifier "STD.ProdCodeId" could not be bound.
+2024-10-11T10:04:47.906Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:05:26.208Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:05:58.677Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-10-11T10:06:21.830Z [[31merror[39m]: Error fetching product: Incorrect syntax near the keyword 'FROM'.
+2024-11-25T07:30:13.387Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.
+2024-11-25T07:30:26.108Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.
+2024-11-25T07:41:45.511Z [[31merror[39m]: Error fetching product: Incorrect syntax near '.'.
+2024-11-25T07:42:09.407Z [[31merror[39m]: Error fetching product: The multi-part identifier "PM.Pr_StAmt" could not be bound.

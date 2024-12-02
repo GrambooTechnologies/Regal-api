@@ -11,7 +11,7 @@ const logger = winston.createLogger({
     })
   ),
   transports: [
-    new winston.transports.Console({ level: "info" }), // Log info and higher level messages to console
+    // new winston.transports.Console({ level: "info" }),
     new winston.transports.File({ filename: "logs/error.log", level: "error" }), // Log errors to a file
     new winston.transports.File({ filename: "logs/combined.log" }), // Log all messages to a file
   ],
